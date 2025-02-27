@@ -5,7 +5,7 @@
   "main": "teliolimpia.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node teliolimpia.js"
+    "start": "nodemon teliolimpia.js"
   },
   "keywords": [],
   "author": "",
