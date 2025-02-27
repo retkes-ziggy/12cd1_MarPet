@@ -5,6 +5,9 @@ const bodyparser = require("body-parser")
 
 app.use(bodyparser.json())
 
+app.get("/",(req, res)=>{
+    res.send("Müködik a szerver.")
+})
 
 
 app.listen(3000,() =>
